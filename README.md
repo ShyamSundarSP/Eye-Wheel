@@ -1,2 +1,7 @@
 # Eye-Wheel
 Empowering Independence for Paralyzed Individuals
+This project addresses the mobility challenges faced by paralyzed individuals by proposing an innovative and accessible solution. Traditional wheelchair controls often fall short for those with limited upper-body mobility, limiting independence. Our solution employs eye-tracking technology, enabling paralyzed individuals to control their wheelchair direction through eyeball movement.
+The pivotal element of our system is the eye-tracking wheelchair, where face extraction is a critical step. Utilizing a Jetson Nano for the software aspect, a camera captures facial features and tracks eye movements. This data is processed to decipher the intended direction of wheelchair movement.
+Integration of a Motor Driver facilitates the translation of eye movement commands into physical motion, propelling the wheelchair's wheels. This holistic approach not only enhances mobility control efficiency but also ensures affordability and user-friendliness.
+By empowering paralyzed individuals with an intuitive and adaptable mobility solution, the Eye Wheel project aims to revolutionize independence, providing a more inclusive and autonomous experience in daily activities.
+Instead of implementing on a wheelchair, this project is implement with small demonstration RC model. This model has a main rectangular base that is connected with the four wheels in the corner.
